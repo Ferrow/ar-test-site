@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+    
 </head>
 <body>
     <div>
@@ -17,7 +18,7 @@
         
         shadow-intensity="1"
         camera-controls
-        touch-action="pan-y"><button class="Hotspot" slot="hotspot-1" data-position="0.0019166552880173723m 0.08056323576845559m 0.17811011982434743m" data-normal="0.017153521406962975m 0.9793341569608276m 0.2015201372398452m" data-visibility-attribute="visible">
+        touch-action="pan-y"><button id="btn" class="Hotspot" slot="hotspot-1" data-position="0.0019166552880173723m 0.08056323576845559m 0.17811011982434743m" data-normal="0.017153521406962975m 0.9793341569608276m 0.2015201372398452m" data-visibility-attribute="visible">
             <div class="HotspotAnnotation">Kapota</div>
         </button>
         <div class="progress-bar hide" slot="progress-bar">
@@ -30,7 +31,7 @@
     </model-viewer>
     </div>
 
-
+    <script type="text/javascript" src="script.js"></script>
     <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>
 </body>
 </html>
