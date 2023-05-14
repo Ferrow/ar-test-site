@@ -2,7 +2,11 @@ const auto = document.querySelector("#auto")
 
 
 function hotspotClickOne(hotspot) {
-    // auto.cameraOrbit = "80deg, 70deg, 4m"
+    
+    document.querySelector("model-viewer").cameraOrbit = hotspot.dataset.orbit
+    
+    // console.log(document.querySelector(".Hotspot"))
+    // console.log(hotspot.dataset.orbit)
     
     const annotation = hotspot.querySelector(".HotspotAnnotation");
 
