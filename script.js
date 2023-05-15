@@ -7,9 +7,12 @@ function hotspotClickOne(hotspot) {
     
     // console.log(document.querySelector(".Hotspot"))
     // console.log(hotspot.dataset.orbit)
-    
-    const annotation = hotspot.querySelector(".HotspotAnnotation");
 
-    annotation.style.display =
-      (annotation.style.display === "block") ? "none" : "block";
+    const modelV = document.querySelector("#auto")
+    modelV.animationName = modelV.animationName === "Wave" ? "Dance" : "Wave"
+    
+    // const annotation = hotspot.querySelector(".HotspotAnnotation");
+
+    // annotation.style.display =
+    //   (annotation.style.display === "block") ? "none" : "block";
   }
