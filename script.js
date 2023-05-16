@@ -7,9 +7,23 @@ function hotspotClickOne(hotspot) {
     
     // console.log(document.querySelector(".Hotspot"))
     // console.log(hotspot.dataset.orbit)
+    let hotSlot = hotspot.slot
+    // console.log(hotSlot)
+
+
 
     const modelV = document.querySelector("#auto")
-    modelV.animationName = modelV.animationName === "Wave" ? "Dance" : "Wave"
+
+    if (hotSlot === "hotspot-1"){
+      // console.log(self)
+      modelV.animationName = "Wave"
+    } else if (hotSlot === "hotspot-2"){
+      modelV.animationName = "Dance"
+    } else if (hotSlot === "hotspot-3"){
+      modelV.animationName = "Idle"
+    }
+
+    // modelV.animationName = modelV.animationName === "Wave" ? "Dance" : "Wave"
     
     // const annotation = hotspot.querySelector(".HotspotAnnotation");
 

@@ -12,10 +12,11 @@
     <div>
         <model-viewer
         id="auto"
-        alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum"
+        alt="Neil Armstrir and Space Museum"
         src="./src/RobotExpressive.glb"
-        ios-src="./src/Cosmonaut.reality"
+        ios-src="./src/RobotExpressive.usdz"
         autoplay
+        animation-name="Idle"
         ar
         ar-modes="webxr scene-viewer quick-look"
         shadow-intensity="1"
@@ -37,6 +38,13 @@
             slot="hotspot-2"
             data-surface="9 0 271 270 273 0.719 0.062 0.219" data-visibility-attribute="visible">
         <div class="HotspotAnnotation">Dance</div>
+    </button>
+    <button 
+            onclick="hotspotClickOne(this)"
+            class="Hotspot"
+            slot="hotspot-3"
+            data-surface="1 0 271 270 273 0.719 0.062 0.219" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Stop</div>
     </button>
         
             <div class="progress-bar hide" slot="progress-bar">
