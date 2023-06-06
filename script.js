@@ -16,7 +16,7 @@ function hotspotClickOne(hotspot) {
 
     if (hotSlot === "hotspot-1"){
       // console.log(self)
-      modelV.animationName = "Wave"
+      modelV.animationName = "animation_8"
     } else if (hotSlot === "hotspot-2"){
       modelV.animationName = "Dance"
     } else if (hotSlot === "hotspot-3"){
