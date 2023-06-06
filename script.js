@@ -16,11 +16,8 @@ function hotspotClickOne(hotspot) {
 
     if (hotSlot === "hotspot-1"){
       // console.log(self)
-      autoplay = false
       modelV.animationName = "Kabbum.001Action"
-    } else if (hotSlot === "hotspot-2"){
-      modelV.animationName = "animation_0"
-    }
+    } 
 
     // modelV.animationName = modelV.animationName === "Wave" ? "Dance" : "Wave"
     
