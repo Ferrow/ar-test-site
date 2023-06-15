@@ -16,13 +16,18 @@ function hotspotClickOne(hotspot) {
 
     if (hotSlot === "hotspot-1"){
       // console.log(self)
-      // modelV.animationName = "Kabbum.001Action"
-      modelV.play()
+      modelV.animationName = "54_14_baked"
+      // modelV.play()
       console.log(modelV)
+      if (navigator.userAgent.includes("Nexus")) {
+        console.log("Je to Nexus phone.")
+      }
+      console.log(navigator.userAgent)
     }
 
     if (hotSlot === "hotspot-2"){
-      modelV.pause()
+      // modelV.pause()
+      modelV.animationName = "90_19_baked"
     } 
     
 
